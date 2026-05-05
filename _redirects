@@ -1,0 +1,18 @@
+# Seconds Colombo — URL redirects from old Hostinger site to new Netlify site
+# Migration: May 2026
+# Format: old-path  new-path  status-code
+
+# Main pages (old URL on Hostinger → equivalent page on new site)
+/rooms                                                              /book.html                       301
+/vinya-garden                                                       /restaurant.html                 301
+/blog                                                               /blog.html                       301
+/blog-list                                                          /blog.html                       301
+/hoteljobscolombo                                                   /careers.html                    301
+
+# Old blog posts → closest topical match on new site
+# (These specific posts no longer exist; redirects send visitors and Google
+#  to the most relevant existing content so link equity is preserved.)
+/sri-lanka-visit-101-backpackers-cultural-guide                     /blog.html                       301
+/top-attractions-near-seconds-colombo-you-cant-miss                 /blog/kirulapone-guide.html      301
+/sri-lankan-curry-powder-ingredients-uses-and-tips-for-travelers    /blog.html                       301
+/colombo-walking-tour-6-must-visit-stops-from-seconds-colombo       /blog/colombo-5-guide.html       301
